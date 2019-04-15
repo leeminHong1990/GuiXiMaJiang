@@ -1,0 +1,87 @@
+<root>
+	<Volatile>
+		<position> 0 </position>
+		<yaw> 0 </yaw>
+		<pitch> 0 </pitch>
+		<roll> 0 </roll>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>	GameObject		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<roomId>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+		</roomId>
+		<owner_uid>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+		</owner_uid>
+		<game_round>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		4				</Default>
+		</game_round>
+		<player_num>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		4				</Default>
+		</player_num>
+		<king_num>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		1				</Default>
+		</king_num>
+		<pay_mode>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</pay_mode>
+		<game_mode>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</game_mode>
+		<max_lose>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</max_lose>
+		<lucky_num>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</lucky_num>
+		<hand_prepare>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		1				</Default>
+		</hand_prepare>
+		<room_type>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</room_type>
+		<discard_seconds>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</discard_seconds>
+	</Properties>
+
+
+	<BaseMethods>
+		<swapTileToTop>
+			<Arg>		UINT32		</Arg>
+		</swapTileToTop>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>
+
